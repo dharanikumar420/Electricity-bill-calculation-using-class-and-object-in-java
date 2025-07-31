@@ -1,0 +1,22 @@
+import java.util.*;
+
+class Main
+{
+public static void main(String[] args)
+{
+ArrayList<String>name=new ArrayList<>();
+
+name.add("DK");
+name.add("leo");
+name.add("AK");
+
+System.out.println("retrive:"+name.get(1));
+System.out.println("update:"+name.set(0,"welcome"));
+System.out.println("delete:"+name.remove(2));
+
+for(String names : name)
+{
+  System.out.println(names);
+}
+}
+}
